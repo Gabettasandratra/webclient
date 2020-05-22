@@ -1,0 +1,75 @@
+.menu-header-dw:hover {
+    background: hsl(207, 23%, 43%)!important;
+}
+
+.navbar-nav>li:hover {
+    background-color: hsl(207, 23%, 43%)!important;
+}
+
+/*.modal-backdrop {
+    position: relative!important;
+    color: black;
+}*/
+
+/*.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}*/
+
+.dropdown-menu>li:hover {
+   /* background-color: blue;*/
+}
+
+.form-group label.control-label {
+    font-size: 15px;
+    line-height: 1.07143;
+    color: rgb(10, 10, 10);
+    font-weight: 400;
+    margin: 16px 0 0 0;
+    display: inline;
+}
+
+hr {
+    line-height: 10;
+    opacity: 1;
+}
+
+.tfoot {
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+.fot {
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+tfoot {
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+.thead {
+    background-color: #d4f5f5a9;
+}
+
+.thead:hover {
+    background-color: #655eaaa9;
+}
+
+.row0 {
+    background-color: #3f87a6;
+    font-weight: bold;
+}
+
+.row1 .lib {
+    margin-left: 3em;
+}
+
+.row2 .lib {
+    margin-left: 6em;
+}
+
+.row3 .lib {
+    margin-left: 9em;
+}

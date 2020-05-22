@@ -1,0 +1,115 @@
+#champObligatoir{
+	color: red;
+	font-size: 15px;
+}
+
+.loader {
+
+		position : fixed;
+		z-index: 9999;
+		background : url("<?php echo base_url();?>/assets/img/loading.gif") 50% 50% no-repeat !important;
+		top : 0px;
+		left : 0px;
+		height : 100%;
+		width : 100%;
+		cursor : wait;
+}
+
+.fa-angle-right{
+	float: right;
+	padding-top: 6px;
+}
+
+.sub-menu{
+	display: none;
+}
+
+.sub-menu ul{
+	list-style: none;
+}
+
+.sub-menu ul li{
+	margin-left: -40px;
+
+}
+.sub-menu ul li a{
+	color: white;
+}
+
+.hover-me:hover .sub-menu{
+	
+	position: absolute;
+	display: block;
+	margin-left: 100%;
+	margin-top: -30px;
+	background-color: rgb(0,100,4);
+
+}
+
+.heads{
+	 background-color: #655eaaa6;
+}
+
+.heads:hover{
+	background-color: blue;
+}
+
+.forms{
+	margin-left: 50px;
+}
+.formComm{
+	margin-left: 90px;
+}
+
+.navbar-nav .nav-item .nav-link{
+	color: white;
+}
+
+.container-fluid{
+	/*padding-left: 30px;
+	padding-right:30px;
+	/*max-height: 150%;
+	overflow-y: auto;*/
+}
+.container{
+	/*max-height: 100%;*/
+	overflow-y: auto;
+}
+.scroll {
+    max-height: 580px;
+    overflow-y: auto;
+}
+.fixes{
+	width: 96.8%;
+	position: fixed;
+	margin-bottom: 15px;
+}
+.teteTable{
+	margin-top: 50px;
+}
+/*.sub-menu2{
+	display: none;
+}
+
+.sub-menu2 ul{
+	list-style: none;
+}
+
+.sub-menu2 ul li{
+	margin-left: -40px;
+
+}
+.sub-menu2 ul li a{
+	color: white;
+}
+
+.hover-me:hover .sub-menu2{
+	
+	position: absolute;
+	display: block;
+	margin-left: 230px;
+	margin-top: -30px;
+	background-color: rgb(0,100,4);
+	
+
+}*/

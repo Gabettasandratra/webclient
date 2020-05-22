@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI Dialog - Animation</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+	$( function() {
+		$( "#dialog" ).dialog({
+			autoOpen: false,
+			show: {
+				effect: "blind",
+				duration: 1000
+			},
+			hide: {
+				effect: "explode",
+				duration: 1000
+			}
+		});
+
+		$( "#opener" ).on( "click", function() {
+			$( "#dialog" ).dialog( "open" );
+		});
+	} );
+	</script>
+</head>
+<body>
+
+<div id="dialog" title="Basic dialog">
+	<p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+
+<button id="opener">Open Dialog</button>
+
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- <section class="container-fluid" style="margin-top: 3%;">
+	<div class="row">
+		<div class="col-12">
+			<div class="card shadow-lg bg-white rounded">
+			  <h5 class="card-header bg-info">Listes des Groupes</h5>
+			  <div class="card-body">
+			    <div class="alert alert-success" style="display: none;margin-top: 25px ">
+
+            </div> --><!--  </div>
+
+
+      </div>
+    </div>
+</section> -->
+          
+        
+   
+
+
+<!-- MODAL DE GESTION GROUPE -->
+
+<!--     <div class="modal fade" id="modalGestGroupe" tabindex="-1" role="dialog" aria-labelledby="GestGroupe" aria-hidden="true">
+              <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="GestGroupe">Gestion groupe</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+
+
+
+                </div>
+
+              </div>
+            </div>
+          </div> -->
